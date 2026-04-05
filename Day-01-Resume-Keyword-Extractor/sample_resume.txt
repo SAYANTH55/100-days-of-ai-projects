@@ -1,0 +1,25 @@
+Name: Sayanth IR
+
+Email: sayanth@example.com
+Phone: +91-9876543210
+
+Education:
+MSc Artificial Intelligence and Machine Learning
+Bachelor of Computer Applications (BCA)
+
+Skills:
+Python, Machine Learning, Artificial Intelligence, NLP, Data Science, SQL, Git
+
+Projects:
+Emotion-Aware Movie Recommendation System
+AI Resume Analyzer
+Placement Intelligence Platform
+
+Experience:
+AI Intern - Worked on NLP based projects and data analysis
+
+Tools & Technologies:
+Python, VS Code, GitHub, Scikit-learn, Pandas, NumPy
+
+Career Objective:
+To become an AI Engineer and work on real-world AI solutions.
