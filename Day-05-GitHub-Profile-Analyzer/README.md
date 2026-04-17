@@ -1,60 +1,84 @@
-# GitHub Profile Analyzer 🚀
+# 🚀 Day 5 – GitHub Profile Analyzer
 
-This project is a simple GitHub Profile Analyzer built using Python.
-It fetches GitHub user information using the GitHub API and displays profile details.
+A Python-based tool that analyzes a GitHub user's profile and provides meaningful insights such as repository statistics, language distribution, and project highlights.
 
-## Features
+---
 
-* Fetch GitHub user profile
-* Display username
-* Display name
-* Show public repositories
-* Show followers
-* Show following count
+## 📌 Features
 
-## Technologies Used
+* 🔍 Fetch GitHub profile data using GitHub API
+* 📊 Analyze programming languages based on **actual code size (bytes)**
+* 🥧 Visualize tech stack using a clean pie chart
+* ⭐ Identify most starred repository
+* 📈 Display key profile metrics:
+
+  * Public repositories
+  * Followers & following
+
+---
+
+## 🛠️ Tech Stack
 
 * Python
-* Requests Library
-* GitHub API
+* Requests (API handling)
+* Matplotlib (Data visualization)
+* GitHub REST API
 
-## Project Structure
+---
 
-Day-05-GitHub-Profile-Analyzer
-│
-├── github_analyzer.py
-└── README.md
+## 📸 Output
 
-## How to Run
+* Console output with profile insights
+* Pie chart representing accurate language usage
 
-Run the following command:
+---
 
-python github_analyzer.py
+## ⚙️ How It Works
 
-Then enter a GitHub username.
+1. User enters a GitHub username
+2. Data is fetched using GitHub API
+3. Language data is collected using repository language endpoints
+4. Code size is aggregated per language
+5. Insights and visualization are generated
 
-## Example
+---
 
-Input:
+## 🔐 Authentication
 
-Enter GitHub Username: SAYANTH55
+To avoid API rate limits, this project uses a GitHub Personal Access Token.
 
-Output:
+Set your token as an environment variable:
 
-GitHub Profile Info
-Name: Sayanth
-Username: SAYANTH55
-Public Repos: 6
-Followers: 2
-Following: 1
+```bash
+set GITHUB_TOKEN=your_token_here
+```
 
-## What I Learned
+---
 
-* Working with APIs
-* Using requests library
-* JSON data handling
-* Real-world data fetching
+## 📂 Project Structure
 
-## Project Info
+```
+Day-05-GitHub-Profile-Analyzer/
+│── github_analyzer.py
+│── README.md
+```
 
-100 Days of AI Projects — Day 5
+---
+
+## 🚀 Future Improvements
+
+* 🌐 Convert into a Streamlit web app
+* 📊 Add developer skill scoring system
+* 🔥 Compare multiple GitHub users
+* 📈 Track contribution activity
+
+---
+
+## 💡 Learning Outcomes
+
+* Working with real-world APIs
+* Secure authentication using tokens
+* Data analysis and aggregation
+* Visualization using Python
+
+---
