@@ -1,0 +1,7 @@
+Python
+SQL
+Machine Learning
+Deep Learning
+AWS
+Docker
+Git
